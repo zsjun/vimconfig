@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/zoushijun/selfwork/tim-webpack/dist/js'
+let g:netrw_dirhist_2='/Users/zoushijun/selfwork/d3Demo/barChart'
+let g:netrw_dirhist_3='/Users/zoushijun/.ssh'
+let g:netrw_dirhist_4='/Users/zoushijun/work/tip-ui/.git'
+let g:netrw_dirhist_5='/Users/zoushijun/.oh-my-zsh/themes'
+let g:netrw_dirhist_6='/Users/zsj/work/temp/tip/.git'
