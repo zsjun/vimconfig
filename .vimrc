@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+set showcmd
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -10,7 +11,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 " vim-go
-Plugin 'fatih/vim-go'
+" Plugin 'fatih/vim-go'
+" Plugin 'vim-airline/vim-airline'
+" Plugin 'ycm-core/YouCompleteMe'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -67,3 +70,5 @@ set hlsearch
 set backspace=2
 " 显示括号匹配
 set showmatch
+"  设置字体大小
+set guifont=*
