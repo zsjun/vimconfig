@@ -10,6 +10,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-autoformat/vim-autoformat'
 " vim-go
 " Plugin 'fatih/vim-go'
 " Plugin 'vim-airline/vim-airline'
@@ -72,3 +73,6 @@ set backspace=2
 set showmatch
 "  设置字体大小
 set guifont=*
+"F3自动格式化代码
+noremap <F3> :Autoformat<CR>
+let g:autoformat_verbosemode=1
