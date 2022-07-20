@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { httpProvider } from './http';\nexport class AlipayProvider {\n  /**\n   * 创建订单\n   */\n  static async createPay(params) {\n    return httpProvider.post('/alipay/create', params);\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

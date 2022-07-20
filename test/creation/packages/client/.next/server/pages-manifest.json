@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/archives": "pages/archives.js",
+  "/article/[id]": "pages/article/[id].js",
+  "/category/[category]": "pages/category/[category].js",
+  "/": "pages/index.js",
+  "/knowledge/[pId]/[id]": "pages/knowledge/[pId]/[id].js",
+  "/knowledge/[pId]": "pages/knowledge/[pId].js",
+  "/knowledge": "pages/knowledge.js",
+  "/page/[id]": "pages/page/[id].js",
+  "/rss": "pages/rss.js",
+  "/tag/[tag]": "pages/tag/[tag].js",
+  "/_document": "pages/_document.js"
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://creation.shbwyz.com
+
+# Sitemaps
+Sitemap: https://creation.shbwyz.com/sitemap.xml

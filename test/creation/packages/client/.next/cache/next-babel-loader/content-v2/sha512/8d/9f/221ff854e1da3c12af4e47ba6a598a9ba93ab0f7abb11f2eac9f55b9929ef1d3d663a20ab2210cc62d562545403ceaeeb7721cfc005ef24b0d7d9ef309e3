@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { httpProvider } from './http';\nexport class SettingProvider {\n  /**\n   * 获取设置\n   */\n  static async getSetting() {\n    return httpProvider.post('/setting/get');\n  }\n  /**\n   * 更新设置\n   */\n\n\n  static async updateSetting(data) {\n    return httpProvider.post(`/setting`, data);\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

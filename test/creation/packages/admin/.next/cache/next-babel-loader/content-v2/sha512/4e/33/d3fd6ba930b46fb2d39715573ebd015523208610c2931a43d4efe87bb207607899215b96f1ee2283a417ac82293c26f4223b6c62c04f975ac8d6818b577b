@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport { AmArticleEditor } from '@/components/AmArticleEditor';\n\nconst Editor = () => {\n  return __jsx(AmArticleEditor, null);\n};\n\nexport default Editor;","map":null,"metadata":{},"sourceType":"module"}

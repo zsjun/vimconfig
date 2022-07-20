@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { useContext } from 'react';\nimport { GlobalContext } from '@/context/global';\nexport var useSetting = function useSetting() {\n  var context = useContext(GlobalContext);\n  return context.setting || {};\n};","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { httpProvider } from './http';\nexport class MailProvider {\n  /**\n   * 获取所有邮件\n   */\n  static async getMails(params) {\n    return httpProvider.get('/smtp', {\n      params\n    });\n  }\n\n  static async deleteMail(id) {\n    return httpProvider.delete('/smtp/' + id);\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { httpProvider } from './http';\nexport class SMTPProvider {\n  /**\n   * 上传文件\n   * @param file\n   */\n  static async testSendMail(user) {\n    return httpProvider.post('/smtp', {\n      to: user,\n      subject: '测试',\n      text: '测试邮件'\n    });\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
