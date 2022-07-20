@@ -63,7 +63,7 @@ class MyApp extends App<IGlobalContext, unknown> {
     const locale = this.state.locale || router.locale;
     const { needLayoutFooter = true } = pageProps;
     const message = i18n[locale] || {};
-
+    const AnyComponent = Component as any;
     return (
       <GlobalContext.Provider
         value={{
@@ -80,7 +80,7 @@ class MyApp extends App<IGlobalContext, unknown> {
           <Analytics />
           <AppLayout needFooter={needLayoutFooter}>
             <NProgress color={'#ff0064'} />
-            <Component {...pageProps} />
+            <AnyComponent {...pageProps} />
           </AppLayout>
         </NextIntlProvider>
       </GlobalContext.Provider>

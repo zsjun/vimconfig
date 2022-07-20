@@ -3,7 +3,7 @@ import { Popover } from 'antd';
 import { emojis } from './emojis';
 import styles from './index.module.scss';
 
-export const Emoji: React.FC<{ onClickEmoji: (arg: string) => void }> = ({
+export const Emoji: React.FC<{ onClickEmoji: (arg: string) => void; children: JSX.Element }> = ({
   onClickEmoji,
   children,
 }) => {

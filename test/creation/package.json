@@ -40,7 +40,6 @@
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
     "@fantasticit/code-lint": "^0.0.8",
-    "@types/react": "^18.0.15",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "commitizen": "^4.2.3",
@@ -73,6 +72,7 @@
     "fs-extra": "^10.0.0",
     "n": "^9.0.0",
     "node-emoji": "^1.11.0",
+    "node-gyp": "^9.1.0",
     "node-sass": "^7.0.1"
   }
 }
