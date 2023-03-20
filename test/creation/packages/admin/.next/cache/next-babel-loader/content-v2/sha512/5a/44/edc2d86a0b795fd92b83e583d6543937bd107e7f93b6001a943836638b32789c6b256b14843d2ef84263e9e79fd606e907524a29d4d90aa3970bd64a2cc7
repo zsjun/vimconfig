@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { useContext } from 'react';\nimport { GlobalContext } from '@/context/global';\nexport const useUser = () => {\n  const context = useContext(GlobalContext);\n  return context.user;\n};","map":null,"metadata":{},"sourceType":"module"}

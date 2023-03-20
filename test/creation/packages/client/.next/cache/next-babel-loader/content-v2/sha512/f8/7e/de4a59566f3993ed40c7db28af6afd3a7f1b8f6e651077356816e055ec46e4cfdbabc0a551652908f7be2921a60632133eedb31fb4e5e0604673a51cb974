@@ -1,1 +1,0 @@
-{"ast":null,"code":"import \"antd/lib/message/style\";\nimport _message from \"antd/lib/message\";\nimport _copy from 'copy-to-clipboard';\nexport function copy(text, t) {\n  _message.success(t('copySuccess'));\n\n  return _copy(text);\n}","map":null,"metadata":{},"sourceType":"module"}

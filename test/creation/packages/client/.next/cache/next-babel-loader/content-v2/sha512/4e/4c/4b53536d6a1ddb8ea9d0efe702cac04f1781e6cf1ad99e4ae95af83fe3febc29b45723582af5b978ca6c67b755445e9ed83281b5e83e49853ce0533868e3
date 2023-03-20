@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { httpProvider } from './http';\nexport class PosterProvider {\n  static async createPoster(data) {\n    return httpProvider.post('/poster', data);\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,1 +1,0 @@
-{"ast":null,"code":"export function safeJsonParse(value) {\n  try {\n    if (value && typeof value === 'object') {\n      return value;\n    }\n\n    if (typeof value === 'string') {\n      return JSON.parse(value);\n    }\n\n    return {};\n  } catch (e) {\n    return {};\n  }\n}","map":null,"metadata":{},"sourceType":"module"}

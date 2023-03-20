@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { useCallback, useState } from 'react';\nexport function useToggle(initialValue) {\n  const {\n    0: value,\n    1: setValue\n  } = useState(initialValue);\n  const toggle = useCallback(() => {\n    setValue(v => !v);\n  }, []);\n  return [value, toggle];\n}","map":null,"metadata":{},"sourceType":"module"}

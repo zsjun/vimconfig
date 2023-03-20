@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { useCallback, useState } from 'react';\nexport function useForceUpdate() {\n  var _useState = useState(-1),\n      update = _useState[1];\n\n  var forceUpdate = useCallback(function () {\n    update(function (v) {\n      return v + 1;\n    });\n  }, []);\n  return forceUpdate;\n}","map":null,"metadata":{},"sourceType":"module"}
